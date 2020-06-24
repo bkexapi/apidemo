@@ -1,8 +1,7 @@
 import hmac
 from hashlib import sha256
 
-# SECRET_KEY = "自己的Secret Key"
-SECRET_KEY = "4342537ef584d9bfabff473fc51deb154fb371dc9f2c88d72bd83512e0bf064f"
+SECRET_KEY = "自己的Secret Key"
 
 
 # 获取签名
