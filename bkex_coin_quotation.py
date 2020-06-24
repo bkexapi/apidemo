@@ -31,11 +31,11 @@ def on_message(ws, message):
         json_str = message[len(PRE_42_QUOTATION) + 1:]
         print('quotation message: ' + json_str)
 
-        jsonObj = json.loads(json_str)
+        json_obj = json.loads(json_str)
 
-        eventType = jsonObj[0]
+        event_type = json_obj[0]
 
-        print(eventType)
+        print(event_type)
 
     else:
         print(message)
