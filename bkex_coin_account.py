@@ -17,7 +17,7 @@ EVENT_SUB_ACCOUNT = "subUserAccountInfo"
 # 币币用户 - 订单变更
 EVENT_SUB_USER_ORDER = "subUserOrderDeal"
 
-ACCESS_KEY = "83b640bae45698056761db3d74a9ed8de8e82d822fa955c48cb12a2692c8d890"
+ACCESS_KEY = "自己的Access Key"
 
 
 def on_message(ws, message):
@@ -64,7 +64,7 @@ ws = websocket.WebSocketApp("wss://" + API_ENDPOINT + "/socket.io/?EIO=3&transpo
 # 登录
 def user_login():
     current_time = str(int(round(time.time() * 1000)))
-    ws.send(PRE_42_ACCOUNT + ',["userLogin",{"signature":"' + bkex_api_sign.get_sign(API_ENDPOINT) + '",'
+    ws.send(PRE_42_ACCOUNT + ',["userLogin",{"signature":"' + bkex_api_sign.get_sign(API_ENDPOINT+"?timestamp=" + current_time) + '",'
             '"accessKey":"' + ACCESS_KEY + '","timestamp":' + current_time + '}]')
 
 

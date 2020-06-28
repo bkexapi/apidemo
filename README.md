@@ -17,6 +17,10 @@
 #### bkex_quotation_data.py
 ### 充值提现+账户相关 
 #### bkex_top_up.py
+### 币币交易
+#### bkex_coin_order.py
+### 合约交易
+#### bkex_coin_contract.py
 ### 基础签名脚本 
 #### bkex_api_sign.py
  

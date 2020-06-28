@@ -4,8 +4,7 @@ from bkex import bkex_api_sign
 
 # 账户相关，充值与提现
 
-ACCESS_KEY = "83b640bae45698056761db3d74a9ed8de8e82d822fa955c48cb12a2692c8d890"
-SECRET_KEY = "4342537ef584d9bfabff473fc51deb154fb371dc9f2c88d72bd83512e0bf064f"
+ACCESS_KEY = "自己的Access Key"
 
 API_ENDPOINT = "https://api.bkex.co"
 
@@ -19,7 +18,6 @@ WALLET_ADDRESS_URL = "/v2/u/wallet/address"
 WALLET_DEPOSIT_RECORD_URL = "/v2/u/wallet/depositRecord"
 # 提现记录
 WALLET_WITHDRAW_RECORD_URL = "/v2/u/wallet/withdrawRecord"
-
 
 
 # API Key权限信息

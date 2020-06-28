@@ -9,22 +9,7 @@ API_ENDPOINT = "https://api.bkex.co"
 WSS_ENDPOINT = "api.bkex.co/contract/u/ws/"
 LISTEN_KEY_URL = "/v2/contract/ws/dataStream/create"
 
-ACCESS_KEY = "83b640bae45698056761db3d74a9ed8de8e82d822fa955c48cb12a2692c8d890"
-SECRET_KEY = "4342537ef584d9bfabff473fc51deb154fb371dc9f2c88d72bd83512e0bf064f"
-
-
-# 获取签名
-# def get_sign(url):
-#     params_arr = url.split("?")
-#     source = ""
-#     if len(params_arr) > 1:
-#         param = params_arr[1]
-#         unsorted_arr = param.split("&")
-#         source = "&".join(sorted(unsorted_arr))
-#         print(source)
-#     sign = hmac.new(bytes(SECRET_KEY, encoding='utf-8'), bytes(source, encoding='utf-8'), sha256).hexdigest()
-#     print("sign: " + sign)
-#     return sign
+ACCESS_KEY = "自己的Access Key"
 
 
 # 创建listen_key
