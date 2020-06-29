@@ -1,6 +1,6 @@
 import requests
 from urllib import parse
-from bkex import bkex_api_sign
+from bkex.PYTHON import bkex_api_sign
 
 # 合约交易
 

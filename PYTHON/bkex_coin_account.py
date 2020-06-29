@@ -1,7 +1,7 @@
 import websocket
 import json
 from threading import Timer
-from bkex import bkex_api_sign
+from bkex.PYTHON import bkex_api_sign
 import time
 
 PRE_0 = "0"
@@ -64,7 +64,7 @@ ws = websocket.WebSocketApp("wss://" + API_ENDPOINT + "/socket.io/?EIO=3&transpo
 # 登录
 def user_login():
     current_time = str(int(round(time.time() * 1000)))
-    ws.send(PRE_42_ACCOUNT + ',["userLogin",{"signature":"' + bkex_api_sign.get_sign(API_ENDPOINT+"?timestamp=" + current_time) + '",'
+    ws.send(PRE_42_ACCOUNT + ',["userLogin",{"signature":"' + bkex_api_sign.get_sign(API_ENDPOINT + "?timestamp=" + current_time) + '",'
             '"accessKey":"' + ACCESS_KEY + '","timestamp":' + current_time + '}]')
 
 
