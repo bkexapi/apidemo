@@ -1,6 +1,6 @@
 import requests
 import json
-from bkex.PYTHON import bkex_api_sign
+import bkex_api_sign
 
 # 账户相关，充值与提现
 
