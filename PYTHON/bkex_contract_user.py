@@ -2,7 +2,7 @@ import websocket
 import json
 from threading import Timer
 import requests
-import bkex_api_sign
+from PYTHON import bkex_api_sign
 
 # api url
 API_ENDPOINT = "https://api.bkex.co"

@@ -1,7 +1,7 @@
 import websocket
 import json
 from threading import Timer
-import bkex_api_sign
+from PYTHON import bkex_api_sign
 import time
 
 PRE_0 = "0"
