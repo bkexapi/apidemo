@@ -132,7 +132,7 @@ def batch_create_order():
             "price": 7000.12,
             "direction": "ASK",
             "symbol": "BTC_USDT",
-            "source": "WALEET",
+            "source": "WALLET",
             "type": "STOP_LIMIT",
             "stopPrice": "6900",
             "operator": "lte"
