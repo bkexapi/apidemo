@@ -2,7 +2,7 @@ import requests
 
 # 基础信息
 
-API_ENDPOINT = "https://api.bkex.co"
+API_ENDPOINT = "https://api.bkex.cc"
 
 # 所有交易对
 SYMBOLS_URL = "/v2/common/symbols"
