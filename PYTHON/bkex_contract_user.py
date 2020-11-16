@@ -5,8 +5,8 @@ import requests
 from PYTHON import bkex_api_sign
 
 # api url
-API_ENDPOINT = "https://api.bkex.co"
-WSS_ENDPOINT = "api.bkex.co/contract/u/ws/"
+API_ENDPOINT = "https://api.bkex.cc"
+WSS_ENDPOINT = "api.bkex.cc/contract/u/ws/"
 LISTEN_KEY_URL = "/v2/contract/ws/dataStream/create"
 
 ACCESS_KEY = "自己的Access Key"

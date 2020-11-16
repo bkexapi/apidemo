@@ -3,7 +3,7 @@ import json
 from threading import Timer
 
 # api url
-API_ENDPOINT = "api.bkex.co/contract/q/ws"
+API_ENDPOINT = "api.bkex.cc/contract/q/ws"
 
 
 def on_message(ws, message):

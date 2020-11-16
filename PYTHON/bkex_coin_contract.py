@@ -4,7 +4,7 @@ from PYTHON import bkex_api_sign
 
 # 合约交易
 
-API_ENDPOINT = "https://api.bkex.co"
+API_ENDPOINT = "https://api.bkex.cc"
 ACCESS_KEY = "自己的Access Key"
 
 # 公共 - Broker交易信息(合约)

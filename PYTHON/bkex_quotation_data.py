@@ -2,7 +2,7 @@ import requests
 
 # 行情数据
 
-API_ENDPOINT = "https://api.bkex.co"
+API_ENDPOINT = "https://api.bkex.cc"
 
 # k线数据
 KLINE_URL = "/v2/q/kline"

@@ -6,7 +6,7 @@ from PYTHON import bkex_api_sign
 
 ACCESS_KEY = "自己的Access Key"
 
-API_ENDPOINT = "https://api.bkex.co"
+API_ENDPOINT = "https://api.bkex.cc"
 
 # API Key
 API_KEY_URL = "/v2/u/api/info"

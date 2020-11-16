@@ -10,7 +10,7 @@ PRE_40_ACCOUNT = "40/account"
 PRE_42_ACCOUNT = "42/account"
 
 # api url
-API_ENDPOINT = "api.bkex.co"
+API_ENDPOINT = "api.bkex.cc"
 
 # 币币用户 - 账户余额
 EVENT_SUB_ACCOUNT = "subUserAccountInfo"

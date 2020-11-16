@@ -8,7 +8,7 @@ PRE_40_QUOTATION = "40/quotation"
 PRE_42_QUOTATION = "42/quotation"
 
 # api url
-API_ENDPOINT = "api.bkex.co"
+API_ENDPOINT = "api.bkex.cc"
 
 # 币币行情 - k线数据
 EVENT_SUB_KLINE = "subKlineByRange"

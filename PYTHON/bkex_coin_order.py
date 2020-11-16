@@ -5,7 +5,7 @@ from PYTHON import bkex_api_sign
 
 # 币币交易
 
-API_ENDPOINT = "https://api.bkex.co"
+API_ENDPOINT = "https://api.bkex.cc"
 ACCESS_KEY = "自己的Access Key"
 
 # 下单
